@@ -278,3 +278,45 @@ section .foto-galeria {
     object-fit: cover;
     border-radius: 5px;
 }
+
+/*Aca empiezan los estilos de la pag "Nuestros Servicios"*/
+
+.nuestros-servicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    
+    font-size: large;
+}
+
+.grid-nuestros-servicios {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-auto-rows: 400px;
+    gap: 30px;
+
+}
+
+section .foto-nuestros-servicios {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+section a .subtitulo{
+    background-color: #395C64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: #F9F7F3;
+    padding: 15px;
+    border-radius: 5px;
+}
+
